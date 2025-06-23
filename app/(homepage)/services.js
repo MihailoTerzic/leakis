@@ -5,20 +5,20 @@ import { useEffect, useRef, useState } from 'react';
 
 const studios = [
   {
-    title: 'Personal Training Studio',
-    description: 'A space tailored for precision, focus, and intentional movement.',
+    title: 'Nutrition & Recipes',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     imgSrc: '/images/img2.jpg',
     imgAlt: 'Personal Training Studio',
   },
   {
-    title: 'Nutrition & Wellness Lab',
-    description: 'Designed for clarity and calm—where coaching meets balance.',
+    title: 'Online Coaching',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     imgSrc: '/images/img3.jpg',
     imgAlt: 'Nutrition & Wellness Lab',
   },
   {
-    title: 'Mindfulness Room',
-    description: 'Minimal. Quiet. Intentional. Where breath shapes body and mind.',
+    title: 'Fitness & Lifestyle',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     imgSrc: '/images/img4.jpg',
     imgAlt: 'Mindfulness Room',
   },
@@ -80,7 +80,7 @@ export default function ServicesResponsive() {
       {/* Mobile Scrolljacking */}
       <div
         ref={containerRef}
-        className={`relative bg-white md:hidden`}
+        className={`relative bg-white md:hidden py-24`}
         style={{ height: isMobile ? `${scrollLength + window.innerHeight}px` : 'auto' }}
       >
         <div className="sticky top-0 h-screen px-6 flex items-start">
