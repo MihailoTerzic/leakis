@@ -80,7 +80,7 @@ export default function ServicesResponsive() {
       {/* Mobile Scrolljacking */}
       <div
         ref={containerRef}
-        className={`relative bg-white md:hidden py-24`}
+        className={`relative bg-white md:hidden py-16`}
         style={{ height: isMobile ? `${scrollLength + window.innerHeight}px` : 'auto' }}
       >
         <div className="sticky top-0 h-screen px-6 flex items-start">

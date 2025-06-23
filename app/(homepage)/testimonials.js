@@ -15,10 +15,10 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="py-24 px-6 bg-white">
+    <section className="py-24 px-6 bg-white max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto">
         <h2 className="font-serif text-3xl md:text-5xl font-light text-black leading-tight mb-12">
-          Testimonials
+          Whispers of Trust
         </h2>
 
         <div

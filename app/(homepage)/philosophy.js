@@ -8,7 +8,7 @@ export default function Philosophy() {
         src="/images/img1.jpg" // Replace with your actual image path
         alt="Philosophy Background"
         fill
-        className="object-cover filter grayscale"
+        className="object-cover filter grayscale brightness-60"
         sizes="100vw"
         priority
       />
@@ -26,6 +26,11 @@ export default function Philosophy() {
           Our approach centers around creating an atmosphere where clients feel supported, 
           focused, and inspired to evolve — mentally and physically.
         </p>
+        <div className="flex justify-end  mt-10">
+          <button className="font-sans text-black bg-white px-8 py-3 rounded-full text-sm tracking-wide hover:opacity-80 transition">
+            My Story
+          </button>
+        </div>
       </div>
     </section>
   );

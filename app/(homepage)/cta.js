@@ -55,7 +55,7 @@ export default function CallToAction() {
             type="submit"
             className="font-sans text-white bg-black px-8 py-3 rounded-full text-sm tracking-wide hover:opacity-80 transition"
           >
-            Send Message
+            Let’s Talk
           </button>
         </form>
       </div>
