@@ -9,13 +9,15 @@ export default function About() {
            A personal trainer dedicated to refining the art of holistic fitness.  
           Through a minimalist approach, she empowers clients to elevate their wellbeing with precision, grace, and balance.
         </p>
-      </div>
 
-       <div className="flex   mt-10">
+        <div className="flex md:justify-center  mt-10">
           <button className="font-sans text-white bg-black px-8 py-3 rounded-full text-sm tracking-wide hover:opacity-80 transition">
             View my work
           </button>
         </div>
+      </div>
+
+       
     </section>
   );
 }

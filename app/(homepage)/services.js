@@ -117,7 +117,7 @@ export default function ServicesResponsive() {
         <h2 className="font-serif text-3xl md:text-5xl font-light leading-tight mb-10 md:mb-12 text-black">
           Services
         </h2>
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {studios.map(({ title, description, imgSrc, imgAlt }) => (
             <div key={title} className="flex flex-col">
               <div className="relative h-[600px] overflow-hidden mb-6">
